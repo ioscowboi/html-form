@@ -1,0 +1,82 @@
+body{
+  font-family: 'Slabo 27px', serif;
+  color: rgba(0,100,150,1);
+  text-align: center;
+}
+
+ul{
+  display: inline;
+  list-style-type: none;
+  text-decoration: none;
+  text-align: center;
+  color: white;
+  margin: 10px 10px 10px 10px;
+}
+
+li{
+  display: inline;
+  list-style-type: none;
+  text-decoration: none;
+  padding: 10px;
+  text-align: center;
+    padding: 25px 25px 25px 25px;
+}
+
+li a{
+  color: rgba(50,100,100,1);
+}
+
+a:hover{
+  color: rgba(0,0,255,1);
+}
+
+
+div{
+  border: solid rgba(25,25,25,.2);
+  border-radius: 10px 10px 10px 10px;
+  background-color: rgba(200,200,200, .5);
+  text-align: center;
+  margin: 2px 2px 2px 2px;
+  line-height: 150%;
+}
+
+img{
+  max-width: 500px;
+  max-height: 500px;
+  border: solid rgba(25,25,25,.5);
+  border-radius: 25px 25px 25px 25px;
+}
+
+p{
+
+  padding: 10px 75px 5px 75px;
+}
+
+h6{
+  color: rgba(200,200,200,1);
+  font-size: 12px;
+  font-weight: normal;
+}
+
+button{
+  width: 200px;
+}
+
+input[type="radio"   ]{
+  width: 20px;
+  height: 20px;
+}
+
+input[type="checkbox"   ]{
+  width: 20px;
+  height: 20px;
+}
+
+input[type="text" ]{
+  border: 1px dotted #999;
+  border-radius: 10px 10px 10px 10px;
+  width: 300px;
+  height: 15px;
+  -webkit-appearance: none;
+}
+
